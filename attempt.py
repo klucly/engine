@@ -91,7 +91,6 @@ objlist = []
 t = 0
 
 stop = 100
-os.name
 
 while 1:
     win.camera.position.x += sin(t/10)*min(t/60/60, 1)
